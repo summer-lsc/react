@@ -67,7 +67,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### webpack
+
+## webpack
 
 loaders就是把原本webpack不支持加载的文件或者文件内容通过loaders进行加载解析，实现应用的目的。这里讲解es6解析，原生支持js解析，但是不能解析es6，需要babel-loader ，而babel-loader 又依赖babel。来看步骤：先安装babel-loader
 
@@ -75,9 +76,7 @@ loaders就是把原本webpack不支持加载的文件或者文件内容通过loa
 `npm i @babel/core @babel/preset-env babel-loader -D`
 
 再在根目录创建".babelrc"文件
+
 参考：https://mp.weixin.qq.com/s/csC5PatAcuvj0Z3FuiP6Cg
 
 npm install webpack@4.42.0 //指定版本
-
-运行： npm start
-打包： npm run build
